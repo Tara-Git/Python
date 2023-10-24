@@ -11,6 +11,7 @@ is_on = True
 
 while is_on:
     options = menu.get_items()
+    print(menu.menu)
     choice = input(f"What would you like to have? ({options}): ")
     if choice == "off":
         is_on = False
